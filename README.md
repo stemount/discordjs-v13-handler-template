@@ -3,12 +3,19 @@ A slash command and event handler for the new discord.js V13 update. Includes so
 
 ## Installation
 > Clone the repository, or you can create your own using the template function (on GitHub)
+> 
 > Install the dependencies with `npm i`
+> 
 > Remove the `.template` suffix from the *config.js* and *.env* files
+> 
 > Paste your bot token in the *.env* file
+> 
 > Add necessary info to the *config.js* file ([Find more here] (##-Configuration))
+> 
 > Open a terminal in the root directory of the repo
+> 
 > Execute `npm run production`
+> 
 
 ## Configuration
 * `config.general.botName` - What the bot should be referenced to in commands
