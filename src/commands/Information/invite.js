@@ -16,3 +16,12 @@ module.exports = {
 		await interaction.reply({embeds: [emb]});
 	}
 };
+
+/*
+
+> Coded by Lorne#0211
+> https://discord.gg/bUMcVASrJM
+> https://twitter.com/Lorne_Booker
+> https://github.com/lornebookerr
+
+*/

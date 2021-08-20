@@ -8,3 +8,12 @@ module.exports = {
 		await interaction.reply(`API Latency: **\`${Math.round(client.ws.ping)}ms\`**`);
 	}
 };
+
+/*
+
+> Coded by Lorne#0211
+> https://discord.gg/bUMcVASrJM
+> https://twitter.com/Lorne_Booker
+> https://github.com/lornebookerr
+
+*/
