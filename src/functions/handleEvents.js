@@ -10,3 +10,12 @@ module.exports = (client) => {
 		}
 	};
 };
+
+/*
+
+> Coded by Lorne#0211
+> https://discord.gg/bUMcVASrJM
+> https://twitter.com/Lorne_Booker
+> https://github.com/lornebookerr
+
+*/

@@ -1,7 +1,16 @@
 const fs = require('fs');
 const colour = require('colour');
 const { Client, Intents, Collection } = require('discord.js');
-const client = new Client({intents:[Intents.FLAGS.GUILDS]});
+const client = new Client({
+	intents:[Intents.FLAGS.GUILDS],
+	presence: {
+		status: 'online',
+		activity: {
+			name: 'with slash commands',
+			type: 'PLAYING'
+		}
+	}
+});
 
 client.commands = new Collection();
 
@@ -20,3 +29,12 @@ const commandFolders = fs.readdirSync('./src/commands');
 	client.handleCommands(commandFolders, './src/commands');
 	client.login(process.env.SECRET);
 })();
+
+/*
+
+> Coded by Lorne#0211
+> https://discord.gg/bUMcVASrJM
+> https://twitter.com/Lorne_Booker
+> https://github.com/lornebookerr
+
+*/
