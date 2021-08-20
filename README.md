@@ -10,7 +10,7 @@ A slash command and event handler for the new discord.js V13 update. Includes so
 > 
 > Paste your bot token in the *.env* file
 > 
-> Add necessary info to the *config.js* file ([Find more here] (##-Configuration))
+> Add necessary info to the *config.js* file (find out more below)
 > 
 > Open a terminal in the root directory of the repo
 > 
