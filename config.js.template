@@ -6,7 +6,6 @@ config.embeds = {};
 
 // General settings
 config.general.botName = 'Command Handler Template';
-config.general.prefix = '!';
 config.general.guildid = '';
 config.general.clientid = '';
 
